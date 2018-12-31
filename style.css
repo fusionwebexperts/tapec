@@ -685,7 +685,7 @@ body {
 /* -----------------------------------------
 	5. Discount-Product-Area
 ----------------------------------------- */
-.discount-product {position: relative;}
+.discount-product {position: relative; width: 100%;}
 .discount-img-brief {
   left: 0;
   margin: auto;

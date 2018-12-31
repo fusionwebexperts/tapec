@@ -3,12 +3,14 @@
 ======================================== */
 
 /* -----------------------------------------------------
-  Tapec-costumizar
+  Tapec-costumizado
 ----------------------------------------------------- */
 
 .banner-thumb-prod { display: block; background-color: #ffffff; padding: 60px 30px 60px 30px; }
 
 #ensign-nivoslider img { max-height: 800px; }
+
+/* A largura do slider sobre a Tapec foi alterada no bootstrap.min.cs, na secção ".col-lg-8" (de 66.66666667% para 100%) */
 
 
 /* -----------------------------------------------------
