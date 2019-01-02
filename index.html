@@ -62,10 +62,10 @@
 								<div class="mini-cart text-right"> 
 									<ul>
 										<li>
-											<a class="cart-icon" style="padding-right: 10px;" href="#">
+											<a class="cart-icon search-open" style="padding-right: 10px;" href="#" title="Search">
 												<i class="zmdi zmdi-search"></i>
 											</a>
-											<a class="cart-icon" style="padding-left: 10px;" href="#">
+											<a class="cart-icon" style="padding-left: 10px;" href="my-account.html">
 												<i class="zmdi zmdi-account"></i>
 											</a>
 										</li>
@@ -101,8 +101,8 @@
 									</ul>
 								</div>
 							</li>
-							<li><a href="about.html">Sobre Nós</a></li>
-							<li><a href="contact.html">Contactos</a></li>
+							<li><a href="#Tapec">Sobre Nós</a></li>
+							<li><a href="#Contactos">Contactos</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -132,7 +132,7 @@
 											</ul>
 										</li>
 										<li><a href="about.html">Sobre Nós</a></li>
-										<li><a href="contact.html">Contactos</a></li>
+										<li><a href="#Contactos">Contactos</a></li>
 									</ul>
 								</nav>
 							</div>
@@ -141,6 +141,29 @@
 				</div>
 			</div>
 			<!-- Mobile-menu end -->
+			<!-- sidebar-search Start -->
+			<div class="sidebar-search animated slideOutUp">
+				<div class="table">
+					<div class="table-cell">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-8 col-sm-offset-2 p-0">
+									<div class="search-form-wrap">
+										<button class="close-search"><i class="zmdi zmdi-close"></i></button>
+										<form action="#">
+											<input type="text" placeholder="A sua pesquisa..." />
+											<button class="search-button" type="submit">
+												<i class="zmdi zmdi-search"></i>
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- sidebar-search End -->
 			<!-- SLIDER-AREA START  -->
 			<section class="slider-area slider-style-2">
 				<div class="bend niceties preview-2">
@@ -159,7 +182,7 @@
 										<h3 class="slider-title3 text-uppercase mb-0" >Brevemente</h3>
 									</div>
 									<div class="wow fadeInUpBig" data-wow-duration="2.5s" data-wow-delay="0.5s">
-										<h2 class="slider-title1 text-uppercase mb-0"><span class="hidden-xs">Novidades na produção </span>  na industria do conforto</h2>
+										<h2 class="slider-title1 text-uppercase mb-0"><span class="hidden-xs">Novidades na produção na</span>  industria do conforto</h2>
 									</div>
 								</div>
 							</div>
@@ -171,17 +194,11 @@
 						<div class="slider-content t-lfl s-tb slider-1">
 							<div class="title-container s-tb-c title-compress">
 								<div class="layer-1">
-									<div class="wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">
-										<h3 class="slider-title3 text-uppercase mb-0" >welcome to our</h3>
-									</div>
-									<div class="wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
-										<h2 class="slider-title1 text-uppercase"><span class="hidden-xs">elegent </span> furniture</h2>
-									</div>
 									<div class="wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.5s">
-										<p class="slider-pro-brief">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.  If you are going to use a  passage of Lorem Ipsum, you need to be sure there hidden in the middle of text.</p>
+										<h3 class="slider-title3 text-uppercase mb-0" >Brevemente</h3>
 									</div>
 									<div class="wow fadeInUpBig" data-wow-duration="2.5s" data-wow-delay="0.5s">
-										<a href="#" class="button-one style-2 text-uppercase mt-20" data-text="Shop now">Shop now</a>
+										<h2 class="slider-title1 text-uppercase mb-0"><span class="hidden-xs">Novidades na produção na</span>  industria do conforto</h2>
 									</div>
 								</div>
 							</div>
@@ -223,12 +240,12 @@
 							<!-- Single-banner start -->
 							<div class="single-banner banner-1 banner-4">
 								<a class="banner-thumb-prod" href="#"><img src="img/banner/3.png" alt="" /></a>
-								<span class="pro-label new-label" style="background:#a34941;">Vendido</span>
+								<span class="pro-label sold-label">Vendido</span>
 								<div class="banner-brief">
 									<h2 class="banner-title"><a href="#">Nome Produto</a></h2>
 									<p class="mb-0">Categoria</p>
 								</div>
-								<a href="#" class="button-one font-16px" data-text="Buy now">Saber mais</a>
+								<a href="#" class="button-one font-14px" data-text="Saber mais">Saber mais</a>
 							</div>
 							<!-- Single-banner end -->					
 						</div>
@@ -238,7 +255,7 @@
 								<a class="banner-thumb" href="#"><img src="img/banner/4.png" alt="" /></a>
 								<div class="banner-brief">
 									<h2 class="banner-title">
-										<a class="text-uppercase" href="#">Máquinas e <br />componentes <br />indústria <br /><span style="color:#003D7B;">textil </span></a>
+										<a class="text-uppercase" style="font-weight: 500;" href="#">Máquinas e <br />componentes <br />indústria <br /><span style="color:#003D7B;">textil </span></a>
 									</h2>
 								</div>
 							</div>
@@ -1157,6 +1174,7 @@
 				</div>
 			</div>
 			<!-- PURCHASE-ONLINE-AREA END -->
+			<br style="margin: 30px 0px 30px 0px;"  id="Tapec">
 			<!-- DISCOUNT-PRODUCT START -->
 			<div class="discount-product-area discount-2">
 				<div class="container">
@@ -1376,16 +1394,16 @@
 			<!-- FOOTER START -->
 			<footer>
 				<!-- Footer-area start -->
-				<div class="footer-area footer-2">
+				<div class="footer-area footer-2" id="Contactos">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
 								<div class="single-footer">
-									<h3 class="footer-title  title-border">Contact Us</h3>
+									<h3 class="footer-title  title-border">Entre em contato</h3>
 									<ul class="footer-contact">
-										<li><span>Address :</span>28 Green Tower, Street Name,<br>New York City, USA</li>
-										<li><span>Cell-Phone :</span>012345 - 123456789</li>
-										<li><span>Email :</span>your-email@gmail.com</li>
+										<li><span>Endereço :</span>Rua Manuel Rodrigues de Oliveira, nº630<br>3880-879 Ovar </li>
+										<li><span>Telefone :</span>+351 - 969 653 630</li>
+										<li><span>E-mail :</span><a href="mailto:tapec@tapec.com.pt"> tapec@tapec.com.pt </a></li>
 									</ul>
 								</div>
 							</div>
@@ -1418,8 +1436,8 @@
 									<h3 class="footer-title  title-border">Email Newsletters</h3>
 									<div class="footer-subscribe">
 										<form action="#">
-											<input type="text" name="email" placeholder="Email Address..." />
-											<button class="button-one submit-btn-4" type="submit" data-text="Subscribe">Subscribe</button>
+											<input type="text" name="email" placeholder="Endereço de Email..." />
+											<button class="button-one submit-btn-4" type="submit" data-text="Subscrever">Subscrever</button>
 										</form>
 									</div>
 								</div>
@@ -1434,7 +1452,7 @@
 						<div class="row">
 							<div class="col-sm-6 col-xs-12">
 								<div class="copyright">
-									<p class="mb-0">&copy; <a href="http://react.pt/" target="_blank">REACT </a> 2018. All Rights Reserved.</p>
+									<p class="mb-0"> made by <a href="http://react.pt/" target="_blank">REACT </a>&copy; 2019. All rights reserved.</p>
 								</div>
 							</div>
 							<div class="col-sm-6 col-xs-12">

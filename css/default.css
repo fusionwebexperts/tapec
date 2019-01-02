@@ -6,7 +6,11 @@
   Tapec-costumizado
 ----------------------------------------------------- */
 
-.banner-thumb-prod { display: block; background-color: #ffffff; padding: 60px 30px 60px 30px; }
+.banner-thumb-prod { 
+  display: block; 
+  background-color: #ffffff; 
+  padding: 60px 30px 70px 30px; 
+}
 
 #ensign-nivoslider img { max-height: 800px; }
 
@@ -42,11 +46,11 @@
   font-weight: 700;
 }
 
-
 /* -----------------------------------------------------
 	Font-size
 ----------------------------------------------------- */
 .font-16px {font-size: 16px;}
+.font-14px {font-size: 14px;}
 /* -----------------------------------------------------
 	Text-Color
 ----------------------------------------------------- */
@@ -80,7 +84,9 @@
 .banner-3 .banner-title a {
   color: #6a6a6a;
 }
-.banner-3 .banner-title a:hover {
+.banner-3 {
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
   color: #C8A165;
 }
 .banner-3 .banner-title span {
@@ -151,7 +157,7 @@
   position: relative;
 }	
 .button-one::before {
-  background: #c8a165 none repeat scroll 0 0;
+  background: #003E7C none repeat scroll 0 0;
   bottom: 0;
   color: #fff;
   content: attr(data-text);
@@ -887,7 +893,7 @@ h3.widget-title-modal {
 }
 /* Scroll Up */
 #scrollUp {
-  background: #C8A165 none repeat scroll 0 0;
+  background: rgba(0, 62, 124, 0.7) none repeat scroll 0 0;
   bottom: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   color: #fff;
@@ -904,7 +910,7 @@ h3.widget-title-modal {
   z-index: 200;
 }
 #scrollUp:hover {
-    background: #c8a165 none repeat scroll 0 0;
+    background: #003E7C none repeat scroll 0 0;
 }
 @keyframes scroll-ani-to-top {
 	0% {

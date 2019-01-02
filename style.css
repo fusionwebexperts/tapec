@@ -480,8 +480,9 @@ body {
   font-size: 30px;
   line-height: 33px;
 }
-.slider-pro-brief { color: #878686;}
+.slider-pro-brief { color: #000000;}
 .layer-1 {
+  background-color: rgba(255, 255, 255, 0.3);
   float: right;
   margin-right: 5%;
   width: 44%;
