@@ -12,6 +12,36 @@
 
 /* A largura do slider sobre a Tapec foi alterada no bootstrap.min.cs, na secção ".col-lg-8" (de 66.66666667% para 100%) */
 
+.pro-label.sold-label {
+  background: #C67167 none repeat scroll 0 0;
+}
+
+.social-icon {
+    border: 1px solid #e5e5e5;
+    color: #909295;
+    float: right;
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    width: 40px;
+}
+
+.text-dark-blue {
+  color: #003E7C;
+}
+.post-date-og {
+  border-bottom: 1px solid #d6948c;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  width: 40px;
+}
+.post-date-og span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 
 /* -----------------------------------------------------
 	Font-size
@@ -819,7 +849,7 @@ h3.widget-title-modal {
     list-style: outside none none;
     margin-right: 10px;
 }
-.modal-product .widget .social-icons li .social-icon {
+.modal-product .widget .social-icons li {
     border: 1px solid #e5e5e5;
     color: #909295;
     display: inline-block;
