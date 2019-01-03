@@ -132,7 +132,7 @@
 }
 .nivo-directionNav a:hover::after {
   border-bottom: 26px solid transparent;
-  border-left: 32px solid #C8A165;
+  border-left: 32px solid #003E7C;
   border-top: 26px solid transparent;
 }
 .nivo-directionNav a.nivo-nextNav::after {
