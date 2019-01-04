@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>SobreN√≥s || Tapec</title>
+		<title>A Minha Conta|| Tapec</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -46,6 +46,7 @@
 	<body>	
 		<!-- WRAPPER START -->
 		<div class="wrapper bg-dark-white">
+
 			<!-- HEADER-AREA START -->
 			<header id="sticky-menu" class="header header-2">
 				<div class="header-area">
@@ -63,7 +64,7 @@
 											<a class="cart-icon search-open" style="padding-right: 10px;" href="#" title="Search">
 												<i class="zmdi zmdi-search"></i>
 											</a>
-											<a class="cart-icon" style="padding-left: 10px;" href="conta.html">
+											<a class="cart-icon" style="padding-left: 10px;" href="my-account.html">
 												<i class="zmdi zmdi-account"></i>
 											</a>
 										</li>
@@ -83,8 +84,8 @@
 					<nav>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="sobre.html">Sobre N√≥s</a></li>
-							<li><a href="index.html#produtos">Produtos</a></li>
+							<li><a href="sobre.html">Sobre NÛs</a></li>
+							<li><a href="#produtos">Produtos</a></li>
 							<li><a href="contactos.html">Contactos</a></li>
 						</ul>
 					</nav>
@@ -101,8 +102,8 @@
 								<nav id="dropdown">
 									<ul>
 										<li><a href="index.html">Home</a></li>
-										<li><a href="sobre.html">Sobre N√≥s</a></li>
-										<li><a href="index.html#produtos">Produtos</a></li>
+										<li><a href="sobre.html">Sobre NÛs</a></li>
+										<li><a href="#produtos">Produtos</a></li>
 										<li><a href="contactos.html">Contactos</a></li>
 									</ul>
 								</nav>
@@ -142,12 +143,12 @@
 						<div class="col-md-12">
 							<div class="heading-banner">
 								<div class="heading-banner-title">
-									<h2>Sobre N√≥s</h2>
+									<h2>A Minha Conta</h2>
 								</div>
 								<div class="breadcumbs pb-15">
 									<ul>
 										<li><a href="index.html">Home</a></li>
-										<li>Sobre N√≥s</li>
+										<li>A Minha Conta</li>
 									</ul>
 								</div>
 							</div>
@@ -156,29 +157,174 @@
 				</div>
 			</div>
 			<!-- HEADING-BANNER END -->
-			<!-- ABOUT-US-AREA START -->
-			<div class="about-us-area  pt-80 pb-80">
+			<!-- MY-ACCOUNT-AREA START -->
+			<div class="my-account-area  pt-80 pb-80">
 				<div class="container">	
-					<div class="about-us bg-white">
+					<div class="my-account">
 						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<div class="about-photo">
-									<img src="img/bg/about.jpg" alt="" />
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="panel-group" id="accordion">
+									<div class="panel">
+										<div class="my-account-menu" >
+											<a  data-toggle="collapse" data-parent="#accordion" href="#my-info" >
+											Informacoes pessoais
+											</a>
+										</div>
+										<div id="my-info" class="panel-collapse collapse in" >
+											<div class="panel-body">
+												<div class="billing-details shop-cart-table">
+													<input type="text" placeholder="O seu nome...">
+													<input type="text" placeholder="O seu email...">
+													<input type="text" placeholder="Telefone...">
+													<input type="text" placeholder="A sua empresa...">
+													<select class="custom-select mb-15">
+														<option>Pais</option>
+														<option>Bangladesh</option>
+														<option>Estados Unidos da AmÈrica</option>
+														<option>Reino Unido</option>
+														<option>Australia</option>
+														<option>Portugal</option>
+														<option>Espanha</option>
+														<option>FranÁa</option>
+														<option>Alemanha</option>
+													</select>
+													<textarea placeholder="O seu endereco..." class="custom-textarea"></textarea>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="panel">
+										<div class="my-account-menu">
+											<a class="collapsed" data-parent="#accordion"  data-toggle="collapse"  href="#my-billing" >
+											Informacao Pagamento
+											</a>
+										</div>
+										<div id="my-billing" class="panel-collapse collapse" >
+											<div class="panel-body">
+												<div class="billing-details shop-cart-table">
+													<input type="text" placeholder="O seu nome...">
+													<input type="text" placeholder="O seu email...">
+													<input type="text" placeholder="Telefone...">
+													<input type="text" placeholder="A sua empresa...">
+													<select class="custom-select mb-15">
+														<option>Pais</option>
+														<option>Bangladesh</option>
+														<option>Estados Unidos da AmÈrica</option>
+														<option>Reino Unido</option>
+														<option>Australia</option>
+														<option>Portugal</option>
+														<option>Espanha</option>
+														<option>FranÁa</option>
+														<option>Alemanha</option>
+													</select>
+													<textarea placeholder="O seu endereco..." class="custom-textarea"></textarea>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="panel">
+										<div class="my-account-menu">
+											<a class="collapsed" data-parent="#accordion"  data-toggle="collapse"  href="#my-order" >
+											Historico de encomendas
+											</a>
+										</div>
+										<div id="my-order" class="panel-collapse collapse" >
+											<div class="panel-body">
+												<div class="our-order payment-details shop-cart-table">
+													<table>
+														<thead>
+															<tr>
+																<th><strong>Producto</strong></th>
+																<th class="text-right"><strong>Total</strong></th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>Dummy Product Name  x 2</td>
+																<td class="text-right">Ä86.00</td>
+															</tr>
+															<tr>
+																<td>Dummy Product Name  x 1</td>
+																<td class="text-right">Ä69.00</td>
+															</tr>
+															<tr>
+																<td>Subtotal</td>
+																<td class="text-right">Ä155.00</td>
+															</tr>
+															<tr>
+																<td>Portes envio</td>
+																<td class="text-right">Ä15.00</td>
+															</tr>
+															<tr>
+																<td>IVA</td>
+																<td class="text-right">Ä00.00</td>
+															</tr>
+															<tr>
+																<td>Preco Total</td>
+																<td class="text-right">Ä170.00</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>					
 								</div>
 							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<div class="about-brief bg-dark-white">
-									<h4 class="title-1 title-border text-uppercase mb-30">A Tapec</h4>
-									<p>A Tapec, constitu√≠da em 02-01-1984, √© uma empresa especialista em fornecer solu√ß√µes para melhorar o bem estar das pessoas. Dedicamo-nos √† apresenta√ß√£o de sistemas de automatiza√ß√£o e de m√°quinas para a Ind√∫stria de Colch√µes. Assim como de materias-primas para a confec√ß√£o de colch√µes.</p>
-									<p>Realizamos importa√ß√µes e exporta√ß√µes de maquinas e componentes para a industria textil (colch√µes); fabrico de colch√µes, coxins em espuma, capas para colch√µes e derivado. Somos ainda os representantes oficiais da Resta em Portugal e Angola.</p>
-									<p>Estamos ao seu dispor para fornecer as solu√ß√µes mais adequadas √†s necessidades da industria, com o rigor e conhecimento que a nossa vasta experi√™ncia nos fornece.</p>
-								</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="panel-group" id="accordion-2">
+									<div class="panel">
+										<div class="my-account-menu" >
+											<a  data-toggle="collapse" data-parent="#accordion-2" href="#my-payment-method" >
+											Metodo Pagamento
+											</a>
+										</div>
+										<div id="my-payment-method" class="panel-collapse collapse in" >
+											<div class="panel-body">
+												<div class="payment-method  shop-cart-table">
+													<div class="payment-accordion">
+														<!-- Accordion start  -->
+														<h3 class="payment-accordion-toggle active">Transferencia Bancaria</h3>
+														<div class="payment-content default">
+															<p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won't be shipped until the funds have cleared in our account.</p>
+														</div> 
+														<!-- Accordion end -->
+														<!-- Accordion start -->
+														<h3 class="payment-accordion-toggle">Cheque</h3>
+														<div class="payment-content">
+															<p>Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+														</div>
+														<!-- Accordion end -->
+														<!-- Accordion start -->
+														<h3 class="payment-accordion-toggle">PayPal</h3>
+														<div class="payment-content">
+															<p>Pay via PayPal; you can pay with your credit card if you donít have a PayPal account.</p>
+															<a href="#"><img alt="" src="img/payment/1.png"></a>
+															<a href="#"><img alt="" src="img/payment/2.png"></a>
+															<a href="#"><img alt="" src="img/payment/3.png"></a>
+															<a href="#"><img alt="" src="img/payment/4.png"></a>
+														</div>
+														<!-- Accordion end --> 
+														<button type="submit" data-text="Encomendar" class="button-one submit-button mt-15">Encomendar</button>			
+													</div>															
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="panel">
+										<div class="my-account-menu my-account-menu-2" >
+											<a  href="wishlist.html" >
+											Wishlist
+											</a>
+										</div>
+									</div>
+								</div>								
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- ABOUT-US-AREA END -->		
+			<!-- MY-ACCOUNT-CART-AREA END -->
 			<!-- FOOTER START -->
 			<footer>
 				<!-- Footer-area start -->
@@ -189,7 +335,7 @@
 								<div class="single-footer">
 									<h3 class="footer-title  title-border">Entre em contato</h3>
 									<ul class="footer-contact">
-										<li><span>Endere√ßo :</span>Rua Manuel Rodrigues de Oliveira, n¬∫630<br>3880-879 Ovar </li>
+										<li><span>EndereÁo :</span>Rua Manuel Rodrigues de Oliveira, n∫630<br>3880-879 Ovar </li>
 										<li><span>Telefone :</span>+351 - 969 653 630</li>
 										<li><span>E-mail :</span><a href="mailto:tapec@tapec.com.pt"> tapec@tapec.com.pt </a></li>
 									</ul>
@@ -199,7 +345,7 @@
 								<div class="single-footer">
 									<h3 class="footer-title  title-border">A Empresa</h3>
 									<ul class="footer-menu">
-										<li><a href="index.html"><i class="zmdi zmdi-dot-circle"></i>Tapec</a></li>			<li><a href="sobre.html"><i class="zmdi zmdi-dot-circle"></i>Sobre N√≥s</a></li>
+										<li><a href="index.html"><i class="zmdi zmdi-dot-circle"></i>Tapec</a></li>			<li><a href="sobre.html"><i class="zmdi zmdi-dot-circle"></i>Sobre NÛs</a></li>
 										<li><a href="contactos.html"><i class="zmdi zmdi-dot-circle"></i>Contactos</a></li>
 									</ul>
 								</div>
@@ -220,7 +366,7 @@
 									<h3 class="footer-title  title-border">Email Newsletters</h3>
 									<div class="footer-subscribe">
 										<form action="#">
-											<input type="text" name="email" placeholder="Endere√ßo de Email..." />
+											<input type="text" name="email" placeholder="EndereÁo de Email..." />
 											<button class="button-one submit-btn-4" type="submit" data-text="Subscrever">Subscrever</button>
 										</form>
 									</div>
@@ -277,8 +423,8 @@
 										<div class="price-box-3">
 											<hr />
 											<div class="s-price-box">
-												<span class="new-price">$160.00</span>
-												<span class="old-price">$190.00</span>
+												<span class="new-price">Ä160.00</span>
+												<span class="old-price">Ä190.00</span>
 											</div>
 											<hr />
 										</div>
