@@ -54,6 +54,20 @@
 
 .bg-branco {background-color: rgba(255, 255, 255, 0.4);}
 
+@media only screen and (min-width: 900px) {
+  .map-area iframe{
+    width: 60%;
+    float: right; 
+    position: relative; 
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .map-area iframe{
+    width: 100%;
+    padding-top: 40px;
+  }
+}
 
 /* -----------------------------------------------------
 	Font-size
