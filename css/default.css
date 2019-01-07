@@ -12,9 +12,18 @@
   padding: 60px 30px 70px 30px; 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-3 {min-height: 290.76px;}
+} 
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .banner-3 {min-height: 357px;}
+} 
+
 #ensign-nivoslider img { max-height: 800px; }
 
-/* A largura do slider sobre a Tapec foi alterada no bootstrap.min.cs, na secção ".col-lg-8" (de 66.66666667% para 100%) */
+/* A largura do slider sobre a Tapec foi alterada no bootstrap.min.cs, na secção ".col-lg-8" (de 66.66666667% para 100%), 
+assim como nas seções responsivas .col-md-8 (p/ ecrãs médios) e .col-sm-8 (p/ ecrãs pequenos)*/
 
 .pro-label.sold-label {
   background: #C67167 none repeat scroll 0 0;
