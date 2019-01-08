@@ -10,20 +10,13 @@
   display: block; 
   background-color: #ffffff; 
   padding: 60px 30px 70px 30px; 
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .banner-3 {min-height: 290.76px;}
-} 
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .banner-3 {min-height: 357px;}
 } 
 
 #ensign-nivoslider img { max-height: 800px; }
 
-/* A largura do slider sobre a Tapec foi alterada no bootstrap.min.cs, na secção ".col-lg-8" (de 66.66666667% para 100%), 
-assim como nas seções responsivas .col-md-8 (p/ ecrãs médios) e .col-sm-8 (p/ ecrãs pequenos)*/
+/* A largura do slider sobre a Tapec foi alterada, com base no bootstrap.min.cs. Onde chama a classe ".col-lg-8" alterei 
+para ".col-lg-12", tal como nas seções responsivas ".col-md-8" -> ".col-md-12" (p/ ecrãs médios) e .col-sm-8 -> ".col-md-12"
+(p/ ecrãs pequenos). Isto para mudar a largura do slider de 66.6% para 100%. */
 
 .pro-label.sold-label {
   background: #C67167 none repeat scroll 0 0;
@@ -61,9 +54,35 @@ assim como nas seções responsivas .col-md-8 (p/ ecrãs médios) e .col-sm-8 (p
 .azul {color: #003E7C !important;}
 .bg-azul {background: #1e5a96 !important; }
 
-.bg-branco {background-color: rgba(255, 255, 255, 0.4);}
+.bg-branco, .btn-branco {background-color: rgba(255, 255, 255, 0.4); }
+.bg-branco {padding: 20px 0px 20px 15px;}
 
-@media only screen and (min-width: 1008px) {
+@media only screen and (min-width: 1170px){
+  .bg-branco {min-height: 330px;}
+}
+
+@media only screen and (max-width: 1020px){
+  .slide-text {display: none;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .banner-3 {min-height: 357px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-3 {min-height: 290.76px;}
+
+  .about-photo {margin-left:50px;}
+
+  .cont-respo {position: absolute; 
+    width: 100%;
+    top: -60px !important;
+    left: 340px;
+    }
+  .contact-details {padding-bottom: 40px;}
+} 
+
+@media only screen and (min-width: 991px) {
   .map-area iframe{
     width: 60%;
     float: right; 
@@ -71,7 +90,7 @@ assim como nas seções responsivas .col-md-8 (p/ ecrãs médios) e .col-sm-8 (p
   }
 }
 
-@media only screen and (max-width: 1008px) {
+@media only screen and (max-width: 991px) {
   .map-area iframe{
     width: 100%;
     padding-top: 40px;
