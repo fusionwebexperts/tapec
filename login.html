@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>SobreNós || Tapec</title>
+		<title>Login / Registo || Tapec</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -46,7 +46,8 @@
 	<body>	
 		<!-- WRAPPER START -->
 		<div class="wrapper bg-dark-white">
-			<!-- HEADER-AREA START -->
+
+		<!-- HEADER-AREA START -->
 			<header id="sticky-menu" class="header header-2">
 				<div class="header-area">
 					<div class="container-fluid">
@@ -142,12 +143,12 @@
 						<div class="col-md-12">
 							<div class="heading-banner">
 								<div class="heading-banner-title">
-									<h2>Sobre Nós</h2>
+									<h2>Registo de Clientes</h2>
 								</div>
 								<div class="breadcumbs pb-15">
 									<ul>
 										<li><a href="index.html">Home</a></li>
-										<li>Sobre Nós</li>
+										<li>Registo Clientes</li>
 									</ul>
 								</div>
 							</div>
@@ -156,29 +157,41 @@
 				</div>
 			</div>
 			<!-- HEADING-BANNER END -->
-			<!-- ABOUT-US-AREA START -->
-			<div class="about-us-area  pt-80 pb-80">
-				<div class="container">	
-					<div class="about-us bg-white">
+			<!-- SHOPPING-CART-AREA START -->
+			<div class="login-area  pt-80 pb-80">
+				<div class="container">
+					<form action="#">	
 						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<div class="about-photo">
-									<img src="img/bg/about.jpg" alt="" />
-								</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="customer-login text-left">
+									<h4 class="title-1 title-border text-uppercase mb-30">Clientes Registados</h4>
+									<p class="text-gray">Se já tem uma conta pessoal, inicie sessão!</p>
+									<input type="text" placeholder="O seu Email..." name="email">
+									<input type="password" placeholder="Password">
+									<p><a href="#" class="text-gray">Esqueceu-se da sua Password?</a></p>
+									<button type="submit" data-text="login" class="button-one submit-button mt-15  bg-azul">login</button>
+								</div>					
 							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<div class="about-brief bg-dark-white">
-									<h4 class="title-1 title-border text-uppercase mb-30">A Tapec</h4>
-									<p>A Tapec, constituída em 02-01-1984, é uma empresa especialista em fornecer soluções para melhorar o bem estar das pessoas. Dedicamo-nos à apresentação de sistemas de automatização e de máquinas para a Indústria de Colchões. Assim como de materias-primas para a confecção de colchões.</p>
-									<p>Realizamos importações e exportações de maquinas e componentes para a industria textil (colchões); fabrico de colchões, coxins em espuma, capas para colchões e derivado. Somos ainda os representantes oficiais da Resta em Portugal e Angola.</p>
-									<p>Estamos ao seu dispor para fornecer as soluções mais adequadas às necessidades da industria, com o rigor e conhecimento que a nossa vasta experiência nos fornece.</p>
-								</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="customer-login text-left">
+									<h4 class="title-1 title-border text-uppercase mb-30">Novos Clientes</h4>
+									<p class="text-gray">Se já tem uma conta pessoal, inicie a sua sessão no formulário à esquerda!</p>
+									<input type="text" placeholder="O seu nome..." name="name">
+									<input type="text" placeholder="Endereço de Email..." name="email">
+									<input type="password" placeholder="Password">
+									<input type="password" placeholder="Confirmar password">
+									<p class="mb-0">
+										<input type="checkbox" id="newsletter" name="newsletter" checked>
+										<label for="newsletter"><span>Assine a nossa newsletter!</span></label>
+									</p>
+									<button type="submit" data-text="regiter" class="button-one submit-button mt-15 bg-azul">Registar</button>
+								</div>					
 							</div>
 						</div>
-					</div>
+					</form>
 				</div>
 			</div>
-			<!-- ABOUT-US-AREA END -->		
+			<!-- SHOPPING-CART-AREA END -->
 			<!-- FOOTER START -->
 			<footer>
 				<!-- Footer-area start -->
@@ -208,7 +221,7 @@
 								<div class="single-footer">
 									<h3 class="footer-title  title-border">Produtos</h3>
 									<ul class="footer-menu">
-										<li><a href="produtos.html"><i class="zmdi zmdi-dot-circle"></i>Todos os produtos</a><li>
+										<li><a href="/produtos.html"><i class="zmdi zmdi-dot-circle"></i>Todos os produtos</a><li>
 										<li><a href="maquinas.html"><i class="zmdi zmdi-dot-circle"></i>Máquinas</a></li>
 										<li><a href="componentes.html"><i class="zmdi zmdi-dot-circle"></i>Componentes</a></li>
 									</ul>
