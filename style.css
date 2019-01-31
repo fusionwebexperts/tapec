@@ -628,7 +628,7 @@ body {
   height: 40px;
   line-height: 40px;
   position: relative;
-  width: 25%;
+  width: 33.3%;
 }
 .product-action a::before {
   background: #999 none repeat scroll 0 0;
@@ -1335,7 +1335,7 @@ span.color.color-7 { background: #C38B4B; }
 }
 .shop-list .product-info {
   float: left;
-  padding: 0 15px 0 30px;
+  padding: 10px 15px 0 30px;
   width: 69.667%;
 }
 .shop-list .product-action {

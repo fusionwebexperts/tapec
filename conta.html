@@ -225,7 +225,7 @@
 									<div class="panel">
 										<div class="my-account-menu">
 											<a class="collapsed" data-parent="#accordion"  data-toggle="collapse"  href="#my-order" >
-											Histórico de Produtos
+											A Sua encomenda
 											</a>
 										</div>
 										<div id="my-order" class="panel-collapse collapse" >
@@ -281,13 +281,19 @@
 										</div>
 										<div class="customer-login text-left">
 											<h4 class="title-1 title-border text-uppercase mb-30">Clientes Registados</h4>
-											<p class="text-gray">Se já tem uma conta pessoal, inicie sessão!</p>
-											<input type="text" placeholder="O seu Email..." name="email">
-											<input type="password" placeholder="Password">
-											<p><a href="#" class="text-gray">Esqueceu-se da sua Password?</a></p>
-											<button type="submit" data-text="login" class="button-one submit-button mt-15  bg-azul">login</button>
-											<br><br><br>
-											<p class="text-gray">Ainda não está registado? <a href="login.html">Crie uma conta!</a></p>
+											<p class="text-gray" style="font-size: 14px">Se já tem uma conta pessoal, inicie sessão!</p>
+											<form action="">
+												<input type="text" placeholder="O seu Email..." name="email" required>
+												<input type="password" placeholder="Password" required>
+												<p class="mb-0">
+													<input type="checkbox" id="policy" name="policy" value="policy-agree" required>
+													<label for="policy"><span style="font-size: 14px">Concordo com a <a href="politica-privacidade.html">política de Privacidade</a></span></label>
+												</p>
+												<button type="submit" data-text="login" class="button-one submit-button mt-15  bg-azul">login</button>
+											</form>
+											<br><br>
+											<p><a href="#" class="text-gray" style="font-size: 14px">Esqueceu-se da sua Password?</a></p>
+											<p class="text-gray" style="font-size: 14px">Ainda não está registado? <a href="login.html">Crie uma conta!</a></p>
 										</div>	
 									</div>
 								</div>								
@@ -326,7 +332,7 @@
 								<div class="single-footer">
 									<h3 class="footer-title  title-border">Produtos</h3>
 									<ul class="footer-menu">
-										<li><a href="/produtos.html"><i class="zmdi zmdi-dot-circle"></i>Todos os produtos</a><li>
+										<li><a href="produtos.html"><i class="zmdi zmdi-dot-circle"></i>Todos os produtos</a><li>
 										<li><a href="maquinas.html"><i class="zmdi zmdi-dot-circle"></i>Máquinas</a></li>
 										<li><a href="componentes.html"><i class="zmdi zmdi-dot-circle"></i>Componentes</a></li>
 									</ul>
@@ -341,6 +347,8 @@
 											<button class="button-one submit-btn-4" type="submit" data-text="Subscrever">Subscrever</button>
 										</form>
 									</div>
+									<br><br><br>
+									<h4 class="footer-texto"><a href="politica-privacidade.html">Política de Privacidade</a></h4>
 								</div>
 							</div>
 						</div>
@@ -352,12 +360,12 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-6 col-xs-12">
-								<div class="copyright">
+								<div class="copyright" style="padding-top: 10px;"">
 									<p class="mb-0"> made by <a href="http://react.pt/" target="_blank">REACT </a>&copy; 2019. All rights reserved.</p>
 								</div>
 							</div>
 							<div class="col-sm-6 col-xs-12">
-								<div class="payment  text-right">
+								<div class="payment  text-right" style="padding-top: 25px; min-height: 80px">
 									<ul>
 										<li><a target="_blank" title="Google +" href="#" class="gplus social-icon"><i class="zmdi zmdi-google-plus"></i></a></li>
 										<li><a target="_blank" title="Twitter" href="#" class="twitter social-icon"><i class="zmdi zmdi-twitter"></i></a></li>

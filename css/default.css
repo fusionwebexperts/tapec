@@ -57,6 +57,55 @@ para ".col-lg-12", tal como nas seções responsivas ".col-md-8" -> ".col-md-12"
 .bg-branco, .btn-branco {background-color: rgba(255, 255, 255, 0.4); }
 .bg-branco {padding: 20px 0px 20px 15px;}
 
+.politica-col {
+  margin-top: 20px;
+  min-height: 250px;
+  padding: 60px 30px 30px 40px;
+}
+
+.politica-col h5{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.politica-col p{
+  font-size: 16px;
+}
+
+.title-policy {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}  
+
+.cookie-notice {
+  position: sticky;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.footer-texto {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.title-privacy {
+    position: relative;
+}
+
+.title-privacy::before {
+    background: #d6d6c5 none repeat scroll 0 0;
+    bottom: -7px;
+    content: "";
+    height: 2px;
+  left: 0;
+    position: absolute;
+    width: 50px;
+}
+
 @media only screen and (min-width: 1170px){
   .bg-branco {min-height: 330px;}
 }
